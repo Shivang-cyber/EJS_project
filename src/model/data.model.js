@@ -9,6 +9,6 @@ const dataSchema = new mongoose.Schema({
   image4: { type: String, required: true },
 })
 
-const Data = mongoose.model('d', dataSchema)
+const Data = mongoose.model('', dataSchema)
 
 module.exports = Data
