@@ -481,6 +481,6 @@ document.getElementById('col').addEventListener('click', col)
 
 
 function click(){
-  alert(U.name)
-  console.log(U.name);
+  console.log(5);
+
 }

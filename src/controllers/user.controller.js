@@ -6,12 +6,13 @@ const router = express.Router()
 // CRUD
 router.post('', crudController.post(User))
 
-
+//get request of main page
 router.get('', async function(req,res){
  const users = await Link.find().lean().exec()
- // console.log(users);
+ // console.log(users[0]);
  res.render('users/index', { users: users })
 })
+
 router.patch('/:id', crudController.patch(User))
 router.delete('/:id', crudController.deleteOne(User))
 // router.get('/:id', async function(req,res){

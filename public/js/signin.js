@@ -110,6 +110,7 @@ function pubm(event) {
   O['city'] = cit
   O['state'] = stat
   addres.push(O)
+  //addres//
   localStorage.setItem('ADDRES', JSON.stringify(addres))
   var cdc = document.getElementById('addr')
   cdc.style.display = 'none'

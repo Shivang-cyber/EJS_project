@@ -225,21 +225,10 @@
       </div>
       <div id="RRight">
         <div id="R_TOP">
-          <div id="headTCXT">MEN's</div>
-          <div id="SubYXY">Jackets & Coats</div>
+          <div id="headTCXT"><%=user[0].head%></div>
+          <div id="SubYXY"><%=user[0].title%></div>
           <div id="dat">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-            facere iure deleniti ipsam obcaecati dolor voluptatum iusto
-            consequatur quam. Molestias enim odio, aperiam culpa magni atque
-            itaque harum impedit labore facilis eos odit perferendis voluptates
-            repudiandae distinctio officiis eveniet provident beatae dolor! Enim
-            qui ratione impedit quaerat quibusdam fugit magnam. Deserunt natus
-            dolorum ipsa nisi a perferendis voluptatibus accusamus libero
-            laborum obcaecati quibusdam sit quis quos enim, odio sed maiores
-            veniam numquam consectetur totam velit saepe temporibus ullam rerum.
-            Soluta quaerat earum dolores dignissimos iusto saepe similique
-            dolorum asperiores mollitia eligendi harum, possimus doloribus
-            tempore fugit quasi nam itaque sint.
+            <div id="DAT_A"><%- user[0].detail %></div>
           </div>
           <div id="remains">
             <div id="R1">1,037 Items Found</div>
@@ -272,7 +261,10 @@
         </div>
         <div id="right">
           <% user.map(function (U) {%>
-          <button class="pr_bl" onclick="click(<%U%>)">
+          <a
+            href="/prod/<%=U._id%>"
+            class="pr_bl"
+          >
             <img src="<%=U.image1%>" alt="" style="width: 90%" />
             <h4><%=U.brand%></h4>
             <h2><%=U.name%></h2>
@@ -282,9 +274,7 @@
               <p class="zf">Rs. <%=p%></p>
               <p class="zg">(25% off)</p>
             </div>
-
-            <!-- <%=U.name%> -->
-          </button>
+          </a>
           <%})%>
         </div>
       </div>

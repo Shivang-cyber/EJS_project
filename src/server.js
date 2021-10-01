@@ -31,11 +31,25 @@ app.use(express.static('public'))
 
 app.use('/users', userController)
 
+
+app.get('/prod/:id', async (req, res) => {
+  //part of database
+  const user = await DB.find({_id:req.params.id}).lean().exec()
+  res.render('users/prodHollow', {
+    //datapass
+    user: user,
+  })
+})
+
+///users/25165
+//user/?=jaskg
 app.get('/users/:id',async(req,res)=>{
+  //entire database
    const user = await DB.find().lean().exec()
    const rem = user.filter(W=>W.sr==req.params.id)
-   console.log(rem)
+   console.log(rem[0]._id)
    res.render('users/catologue', {
+     //datapass
      user: rem,
    })
 })

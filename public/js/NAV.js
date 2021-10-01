@@ -556,11 +556,11 @@ function navbar() {
           </div>
           <a href="/closet.html" id="closet">
             <p></p>
-           <img src='./resources/img/cartico1.png'>
+           <img src='/resources/img/cartico1.png'>
           </a>
           <a href="/bag.html" id="cart">
             <p></p>
-            <img src='./resources/img/cartico2.png'>
+            <img src='/resources/img/cartico2.png'>
           </a>
         </div>
       </div>
