@@ -177,15 +177,17 @@ a {
 .part > div > p {
   margin: 18px;
   margin-top: 4px;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
   font-size: 14px;
   color: #3d5060;
 }
+.part > div > p > a,
 .part > div > p > button {
   color: #3d5060;
   border: none;
   background-color: white;
   cursor: pointer;
+  margin-left: 2px;
 }
 #searLink {
   height: 78px;
@@ -382,12 +384,11 @@ a {
   width: 25%;
   text-align: center;
   font-size: 40px;
-
 }
 #block8 > div > img {
   width: 40%;
 }
-#block8 > div:nth-child(1){
+#block8 > div:nth-child(1) {
   margin-top: -5px;
 }
 #block9 {
@@ -640,11 +641,11 @@ a {
   display: none;
   /* k */
 }
-#ii{
+#ii {
   display: flex;
   letter-spacing: 0.4px;
 }
-#ii>p{
+#ii > p {
   margin-left: 2px;
 }
 
@@ -660,7 +661,6 @@ a {
   z-index: 4;
 }
 #details {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -668,13 +668,12 @@ a {
   font-size: 13px;
   color: rgb(83, 83, 83);
 }
-#mailFRM{
+#mailFRM {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 #details > div {
   width: 90%;
-
 }
 /* #detailHD > form {
 } */
@@ -685,52 +684,52 @@ a {
   border: 1px solid rgb(197, 196, 196);
   border-style: none none solid none;
 }
-#ch2{
+#ch2 {
   display: flex;
   margin-bottom: 15px;
 }
-#ch1{
+#ch1 {
   margin-right: 5px;
 }
-#sup{
+#sup {
   padding: 13px;
   background-color: rgb(213, 162, 73);
   color: white;
   letter-spacing: 1px;
 }
-.rad{
+.rad {
   margin: 5px;
 }
 
-#details{
-display: none;
+#details {
+  display: none;
 }
-#addr{
-  display:none;
+#addr {
+  display: none;
   margin-top: 20px;
 }
-#addr>div{
+#addr > div {
   margin-left: 35px;
 }
-#addr>div>form{
+#addr > div > form {
   display: flex;
   flex-direction: column;
 }
-#addr>div>form>input{
+#addr > div > form > input {
   width: 340px;
   margin-top: 20px;
   margin-bottom: 20px;
-    border: 1px solid rgb(197, 196, 196);
+  border: 1px solid rgb(197, 196, 196);
   border-style: none none solid none;
 }
-#addr>div>form>select{
+#addr > div > form > select {
   width: 345px;
   margin-top: 20px;
-  margin-bottom: 20px;  
-    border: 1px solid rgb(197, 196, 196);
+  margin-bottom: 20px;
+  border: 1px solid rgb(197, 196, 196);
   border-style: none none solid none;
 }
-#sss{
+#sss {
   margin-top: 25px;
   padding: 13px;
   background-color: rgb(213, 162, 73);
