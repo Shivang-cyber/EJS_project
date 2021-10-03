@@ -22,7 +22,7 @@ When you click on closet button you can see you added item.In bag button when yo
 <!-- <p style="font-size:16px">HTML,CSS,JAVASCRIPT</p> -->
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_HBDJ-3-r65eQWAZ98i2JiUodLF1IRJryyElrHlkOt0HksN34M3xLKS4nn01HREJB3Vw&usqp=CAU">
 <img src="https://www.resourcifi.com/wp-content/themes/resourcifi-child/img/express-min.png">
-<img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png">
+<img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png" style="width:600px,height:200px">
 <h2>Authors</h2>
 <ol>
  
