@@ -2,14 +2,14 @@ function bottom() {
   return `    <div id="block8">
       <div>
         
-        <img src="./resources/img/ico (Custom).png" alt="">
+        <img src="/resources/img/ico (Custom).png" alt="">
         
       </div>
       <div>
-        <img src="./resources/img/ico2.png" alt="">
+        <img src="/resources/img/ico2.png" alt="">
       </div>
       <div>
-        <img src="./resources/img/ico3.png" alt="">
+        <img src="/resources/img/ico3.png" alt="">
       </div>
     </div>
 
@@ -62,7 +62,7 @@ function bottom() {
         <div>
           <div id="ICO">
             <h5>Payment methods</h5>
-            <img src='./resources/img/icof.png'>
+            <img src='/resources/img/icof.png'>
           </div>
           <div></div>
         </div>

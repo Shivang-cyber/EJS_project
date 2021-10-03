@@ -5,7 +5,7 @@ const crudController = require('../controllers/crudController')
 const router = express.Router()
 // CRUD
 router.post('', crudController.post(User))
-
+router.post('/login', crudController.post(User))
 //get request of main page
 router.get('', async function(req,res){
  const users = await Link.find().lean().exec()

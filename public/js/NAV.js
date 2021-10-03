@@ -24,7 +24,7 @@ function navbar() {
                   <h5>INTERNATIONAL BRANDS</h5>
                   <h5>WESTERN WEAR</h5>
                   <p>
-                    <button onclick="cato(mjackets)">Jackets & Coats</button>
+                    <a href="/users/11">Jackets</a>
                   </p>
                   <p><button onclick="cato(menpants)">Jeans</button></p>
                   <p><button onclick="cato(menshirts)">Shirts</button></p>

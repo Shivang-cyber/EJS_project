@@ -20,6 +20,12 @@ const dbSchema = new mongoose.Schema({
 // Step2
 const DB = mongoose.model('db', dbSchema)
 
+//login schema
+const logSchema = new mongoose.Schema({
+  email:{type:String,required:true},
+  PASS:{type:String,required:true}
+})
+const log = mongoose.model('login',logSchema)
 // const { mongoose } = require('mongoose')
 const app = express()
 
@@ -28,8 +34,17 @@ app.use(express.urlencoded())
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 // app.use('/data', dataController)
-
 app.use('/users', userController)
+
+app.get('/expressions/:id', (req, res, next) => {
+  const foundExpression = getElementById(req.params.id, expressions)
+  if (foundExpression) {
+    res.send(foundExpression)
+  } else {
+    res.status(404).send()
+  }
+})
+
 
 
 app.get('/prod/:id', async (req, res) => {
@@ -42,7 +57,7 @@ app.get('/prod/:id', async (req, res) => {
 })
 
 ///users/25165
-//user/?=jaskg
+//user/?=jaskg&src=skhdhfb
 app.get('/users/:id',async(req,res)=>{
   //entire database
    const user = await DB.find().lean().exec()

@@ -96,6 +96,29 @@ function tubm(event) {
   var cdc = document.getElementById('addr')
   cdc.style.display = 'block'
 }
+const postData = async (
+  url = 'http://localhost:5540/users/login',
+  data = O
+) => {
+
+  const response = await fetch(url, {
+    method: 'POST',
+    credentials: 'same-origin',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    // Body data type must match "Content-Type" header
+    body: JSON.stringify(data),
+  })
+
+  try {
+    const newData = await response.json()
+    // console.log(newData)
+    return newData
+  } catch (error) {
+    console.log('error', error)
+  }
+}
 function pubm(event) {
   event.preventDefault()
   var loc = document.getElementById('loc').value
@@ -109,9 +132,9 @@ function pubm(event) {
   O['PIN'] = pin
   O['city'] = cit
   O['state'] = stat
-  addres.push(O)
+  postData()
   //addres//
-  localStorage.setItem('ADDRES', JSON.stringify(addres))
+  // localStorage.setItem('ADDRES', JSON.stringify(addres))
   var cdc = document.getElementById('addr')
   cdc.style.display = 'none'
   thank()
