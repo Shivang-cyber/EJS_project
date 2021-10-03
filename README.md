@@ -26,7 +26,7 @@ When you click on closet button you can see you added item.In bag button when yo
 <h2>Authors</h2>
 <ol>
  
- <li><a style="border:none"href="https://github.com/amarjyotipatra">Amar jyoti patra</a>
+ <li><a style="border:none"href="https://github.com/amarjyotipatra">Amar Jyoti patra</a>
 <li><a style="border:none"href="https://github.com/Thhorr">Yogendra Diwan</a>
 <li><a style="border:none"href="https://github.com/ManeyX">Shivang shukla</a>
 <li><a style="border:none"href="https://github.com/Abhishek-015">Abhishek singh</a>
