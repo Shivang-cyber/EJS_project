@@ -1,570 +1,854 @@
 function navbar() {
   return `<div id="navbar">
-      <a href="/Index.html">
-        <img
-          id="ima_head"
-          src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
-          alt="header"
-        />
+  <a href="/Index.html">
+    <img
+      id="ima_head"
+      src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
+      alt="header"
+    />
+  </a>
+
+  <div id="links">
+    <div class="dropdown">
+      <a class="active" href="" id="test">MEN</a>
+
+      <div class="dropdown-content">
+        <div class="d1">
+          <div class="catog">
+            <p>Shop By:</p>
+
+            <p>CATEGORIES</p>
+
+            <p>BRANDS</p>
+          </div>
+
+          <div class="part">
+            <div>
+              <h5>NEW IN: CLOTHING</h5>
+
+              <h5>NEW IN: FOOTWEAR & ACCS</h5>
+
+              <h5>INTERNATIONAL BRANDS</h5>
+
+              <h5>WESTERN WEAR</h5>
+
+              <p>
+                <a href="/users/11">Jackets</a>
+              </p>
+
+              <p><a href="/users/12">Jeans</a></p>
+
+              <p><a href="/users/13">Shirts</a></p>
+
+              <p>
+                <a href="">Shorts & 3/4ths</a>
+              </p>
+
+              <p>
+                <a href="/users/13">Seatshirts & Hoodies</a>
+              </p>
+
+              <p>
+                <a href="/users/15">Tracks Pants</a>
+              </p>
+
+              <p>
+                <a href="/users/12">Trousers & Pants</a>
+              </p>
+
+              <p><a href="/users/16">T-Shirts</a></p>
+
+              <h5>ETHNIC & FESTIVE</h5>
+
+              <p>
+                <a href="/users/13">Kurtas And Shirts</a>
+              </p>
+
+              <p><a href="/users/11">Nehru Jackets</a></p>
+            </div>
+
+            <div>
+              <h5>FOOTWEAR</h5>
+
+              <p><a href="/users/14">Casual Shoes</a></p>
+
+              <p>
+                <a href="/users/14">Flip-Flops & Slippers</a>
+              </p>
+
+              <p><a href="/users/14">Formal Shoes</a></p>
+
+              <p><a href="/users/14">Sandals</a></p>
+
+              <p><a href="/users/14">Sneakers</a></p>
+
+              <p><a href="/users/14">Sports Shoes</a></p>
+
+              <h5>NIGHT & LOUNGEWEAR</h5>
+
+              <p><a href="">Briefs</a></p>
+
+              <p><a href="">Trunks</a></p>
+
+              <p><a href="">Vests</a></p>
+            </div>
+
+            <div>
+              <h5>ACCESSORIES</h5>
+
+              <p><a>Backpacks</a></p>
+
+              <p><a>Bags & Wallets</a></p>
+
+              <p><a>Belts</a></p>
+
+              <p><a>Caps & Hats</a></p>
+
+              <p><a>Fashion Accesories</a></p>
+
+              <p><a>Socks</a></p>
+
+              <p><a>Sunglasses & Frames</a></p>
+
+              <p><a>Wallets</a></p>
+
+              <p><a>Watches</a></p>
+
+              <h5>WINTERWEAR</h5>
+
+              <h5>PRECIOUS JEWELLERY</h5>
+
+              <h5>HOME & KITCHEN</h5>
+
+              <h5>GROOMING</h5>
+            </div>
+
+            <div>
+              <h5>FEATURED</h5>
+
+              <p><a>Bags Under 1499</a></p>
+
+              <p>
+                <a href="">Footwear Under 1499</a>
+              </p>
+
+              <p>
+                <a href="">Jeans Under 1199</a>
+              </p>
+
+              <p>
+                <a href=""> Shorts & 3/4ths Under 699 </a>
+              </p>
+
+              <h5>#AJIORECOMMENDS</h5>
+
+              <p><a>Play Time</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a class="active" href="">WOMEN</a>
+
+      <div class="dropdown-content">
+        <div class="d1">
+          <div class="catog">
+            <p>Shop By:</p>
+
+            <p>CATEGORIES</p>
+
+            <p>BRANDS</p>
+          </div>
+
+          <div class="part">
+            <div>
+              <h5>NEW IN: CLOTHING</h5>
+
+              <h5>NEW IN: FOOTWEAR & ACCS</h5>
+
+              <h5>WESTERN WEAR</h5>
+
+              <p><a href="/users/25">Tops</a></p>
+
+              <p><a href="/users/26">T-Shirts</a></p>
+
+              <p>
+                <a href="/users/19">Jeans & Jeggings</a>
+              </p>
+
+              <p><a href="/users/18">Dresses</a></p>
+
+              <p>
+                <a href="/users/19">Trousers & Pants</a>
+              </p>
+
+              <p><a href="/users/27">Shirts</a></p>
+
+              <p><a href="/users/19">Tracks Pants</a></p>
+
+              <p><a href="">Skirts & Shorts</a></p>
+
+              <p><a href="/users/26">Jackets & Coats</a></p>
+
+              <p>
+                <a href="/users/18">Jumpsuits & Playsuits</a>
+              </p>
+
+              <p><a href="/users/18">Shrugs & Boleros</a></p>
+
+              <p>
+                <a href="/users/25">Seatshirts & Hoodies</a>
+              </p>
+
+              <p>
+                <a href="/users/25">Sweater & Cardigans</a>
+              </p>
+            </div>
+
+            <div>
+              <h5>ETHNIC WEAR</h5>
+
+              <p><a href="/users/10">Kurtas</a></p>
+
+              <p>
+                <a href="/users/10">Salwars & Churidars</a>
+              </p>
+
+              <p>
+                <a href="/users/10">Kurtis & Tunics</a>
+              </p>
+
+              <p><a href="/users/6">Sarees</a></p>
+
+              <p><a href="">Dupattas</a></p>
+
+              <p><a href="">Dress Material</a></p>
+
+              <p>
+                <a href="/users/20">Kurta Suit sets</a>
+              </p>
+
+              <p><a href="">Blouses</a></p>
+
+              <p><a href="/users/19">Leggings</a></p>
+
+              <p><a href="/users/26">Jackets & Shrugs</a></p>
+
+              <p>
+                <a href="/users/19">Shirts & Ghagras</a>
+              </p>
+
+              <p><a href="">Shawls & Wraps</a></p>
+
+              <p>
+                <a href="">Palazzos & Culottes</a>
+              </p>
+
+              <h5>LINGERIE & INNERWEAR</h5>
+
+              <p><a href="">Bras</a></p>
+
+              <p><a href="">Panties</a></p>
+
+              <p>
+                <a href="/users/19">Camisoles & Slips</a>
+              </p>
+            </div>
+
+            <div>
+              <h5>WINTER</h5>
+
+              <h5>PRECIOUS JEWELLERY</h5>
+
+              <h5>HOME & KITCHEN</h5>
+
+              <h5>NIGHT & LOUNGEWEAR</h5>
+
+              <h5>ATHLEISURE</h5>
+
+              <h5>BEAUTY</h5>
+
+              <h5>FUSION WEAR</h5>
+
+              <p><a>Dresses & Gowns</a></p>
+
+              <p><a>Kurtas</a></p>
+
+              <p>
+                <a href="/users/20">Kurtis & Tunics</a>
+              </p>
+
+              <p><a href="/users/19">Pants & Shorts</a></p>
+
+              <p><a href="/users/26">Jackets & Shrugs</a></p>
+
+              <p>
+                <a href="/users/27">Shirts, Tops & Tunics</a>
+              </p>
+
+              <h5>FASHION JEWELLERY</h5>
+
+              <h5>BAGS, BELTS & WALLETS</h5>
+            </div>
+
+            <div>
+              <h5>FOOTWEAR</h5>
+
+              <p><a href="/users/23">Casual Shoes</a></p>
+
+              <p><a href="/users/21">Flats Sandals</a></p>
+
+              <p><a href="/users/23">Sports Shoes</a></p>
+
+              <p>
+                <a href="/users/23">Flip Flop & Slippers</a>
+              </p>
+
+              <p>
+                <a href="/users/21">Heeled Sandals</a>
+              </p>
+
+              <p><a href="/users/21">Heeled Shoes</a></p>
+
+              <p><a href="/users/21">Boots</a></p>
+
+              <h5>SUNGLASSES & FRAMES</h5>
+
+              <h5>WATCHES</h5>
+
+              <h5>FEATURED</h5>
+
+              <p>
+                <a href="/users/18">Dresses Under 999</a>
+              </p>
+
+              <p>
+                <a href="/users/23">Footwear Under 799</a>
+              </p>
+
+              <p>
+                <a href="/users/6">Sarees Under 799</a>
+              </p>
+
+              <p><a href="/users/8">Top Under 499</a></p>
+
+              <h5>#AJIORECOMMENDS</h5>
+
+              <p><a>Play Time</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a class="active" href="">KIDS</a>
+
+      <div class="dropdown-content">
+        <div class="d1">
+          <div class="catog">
+            <p>Shop By:</p>
+
+            <p>CATEGORIES</p>
+          </div>
+
+          <div class="part">
+            <div>
+              <h5>NEW IN: CLOTHING</h5>
+
+              <h5>NEW IN: FOOTWEAR & ACCS</h5>
+
+              <h5>INNERWEAR & SLEEPWEAR</h5>
+
+              <h5>BOYS</h5>
+
+              <p>
+                <a href="/users/8">Denims & Trousers</a>
+              </p>
+
+              <p>
+                <a href="/users/8"> Joggers & Tracks Pants </a>
+              </p>
+
+              <p><a href="">Outerwear</a></p>
+
+              <p><a href="/users/8">Shirts</a></p>
+
+              <p>
+                <a href="/users/8">Shorts & 3/4ths</a>
+              </p>
+
+              <p><a href="/users/8">T-Shirts</a></p>
+
+              <h5>SHOP BY AGE</h5>
+
+              <p><a href="/users/8">0-2 Years</a></p>
+
+              <p><a href="/users/8">2-5 Years</a></p>
+
+              <p><a href="/users/8">5-10 Years</a></p>
+
+              <p><a href="/users/8">10-14 Years</a></p>
+            </div>
+
+            <div>
+              <h5>FEATURED</h5>
+
+              <p>
+                <a href="">Denims Under 799</a>
+              </p>
+
+              <p>
+                <a href="/users/8">Shirts Under 599</a>
+              </p>
+
+              <p><a href="/users/8">T-Shirts Under 399</a></p>
+
+              <h5>GIRLS</h5>
+
+              <p>
+                <a href="/users/5">Dresses & Frocks</a>
+              </p>
+
+              <p>
+                <a href="/users/5">Jeans & Jeggings</a>
+              </p>
+
+              <p><a href="/users/5">Leggings</a></p>
+
+              <p><a href="/users/5">Outerwear</a></p>
+
+              <p>
+                <a href="/users/5">Skirts & Shorts</a>
+              </p>
+
+              <p>
+                <a href="/users/5">Tops & T-Shirts</a>
+              </p>
+
+              <h5>SHOP BY AGE</h5>
+
+              <p><a href="/users/5">2-5 Years</a></p>
+
+              <p><a href="/users/5">5-10 Years</a></p>
+
+              <p><a href="/users/5">10-14 Years</a></p>
+
+              <h5>FEATURED</h5>
+
+              <p>
+                <a href="/users/5">Dresses Under 499</a>
+              </p>
+
+              <p>
+                <a href="/users/5">Tops Under 399</a>
+              </p>
+            </div>
+
+            <div>
+              <h5>BABY</h5>
+
+              <p><a>Sets</a></p>
+
+              <h5>TOYS AND BABYCARE</h5>
+
+              <p><a>Action-Figurine & Collectibles</a></p>
+
+              <p><a>Creative & Educational Toys</a></p>
+
+              <p><a>Gaming, Robots & Vehicles</a></p>
+
+              <p><a>Infant Toys</a></p>
+
+              <p><a>Role & Pretend Play</a></p>
+
+              <p><a>School, Party Supplies & Books</a></p>
+
+              <p><a>Soft Toys</a></p>
+
+              <p><a>Toy-Guns & Accessories</a></p>
+
+              <h5>COLLECTIONS</h5>
+
+              <h5>AJIO EXCLUSIVES</h5>
+
+              <h5>FOOTWEAR & ACCESSORIES</h5>
+            </div>
+
+            <div>
+              <h5>FEATURED</h5>
+
+              <p><a>Crocs</a></p>
+
+              <p><a>Flying Machine Kids</a></p>
+
+              <p><a>MINI KLUB</a></p>
+
+              <p><a>Gini & Jony</a></p>
+
+              <p><a>Hamleys</a></p>
+
+              <p><a>Mothercare</a></p>
+
+              <p><a>Marks & Spencer</a></p>
+
+              <p><a>Pepe Jeans</a></p>
+
+              <p><a>Peppermint</a></p>
+
+              <p><a>UCB Kids</a></p>
+
+              <p><a>U.S.P.A Kids</a></p>
+
+              <p><a>MILA BABY</a></p>
+
+              <p><a>Under Armour</a></p>
+
+              <p><a>MUJI</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a class="active" href="">INDIE</a>
+
+      <div class="dropdown-content">
+        <div class="d1">
+          <div class="catog">
+            <p>Shop By:</p>
+
+            <p>CATEGORIES</p>
+          </div>
+
+          <div class="part">
+            <div>
+              <h5>NEW IN: CLOTHING</h5>
+
+              <h5>NEW IN: SAREES</h5>
+
+              <h5>NEW IN: JEWELLERY</h5>
+
+              <h5>NEW IN: FOOTWEAR & ACCS</h5>
+
+              <h5>NEW IN: HOME</h5>
+
+              <h5>CLOTHING</h5>
+
+              <p><a href="/users/6">Sarees</a></p>
+
+              <p><a href="/users/10">Kurtas</a></p>
+
+              <p><a href="">Dresses</a></p>
+
+              <p><a href="">Tops & Tunics</a></p>
+
+              <p><a href="">Dupattas</a></p>
+
+              <p>
+                <a href="">Dress Materials</a>
+              </p>
+
+              <p>
+                <a href="">Blouses & Blouse Fabrics</a>
+              </p>
+
+              <p>
+                <a href="">Pants Skirts & Palazzos</a>
+              </p>
+
+              <h5>FOOTWEAR</h5>
+
+              <p><a href="">Chappals</a></p>
+
+              <p><a href="/users/7">Juttis</a></p>
+            </div>
+
+            <div>
+              <h5>FASHION JEWELLERY</h5>
+
+              <p><a>Bracelets</a></p>
+
+              <p><a>Earrings & Rings</a></p>
+
+              <p><a>Necklaces & Pendants</a></p>
+
+              <h5>SILVER JEWELLERY</h5>
+
+              <h5>ACCESSORIES</h5>
+
+              <p><a>Bags & Belts</a></p>
+
+              <p><a>Shawls & Wraps</a></p>
+
+              <p><a>Stoles & Scarves</a></p>
+
+              <h5>MENSWEAR</h5>
+
+              <p><a href="/users/10">Kurtas</a></p>
+
+              <p>
+                <a href=""> Nehru Jackets and Ties </a>
+              </p>
+
+              <p><a href="">Shirts</a></p>
+
+              <p><a href="">Footwear</a></p>
+
+              <h5>HOME</h5>
+
+              <h5>WORLD CRAFTS</h5>
+            </div>
+
+            <!-- bababoey -->
+
+            <div>
+              <h5>REGIONAL SPECIALTIES</h5>
+
+              <p><a>Ajrak</a></p>
+
+              <p><a>Bagh</a></p>
+
+              <p><a>Bagru</a></p>
+
+              <p><a>Bananas & Brocades</a></p>
+
+              <p><a>Chanderi & Maheshwari</a></p>
+
+              <p><a>Indigo</a></p>
+
+              <p><a>Kalamkari</a></p>
+
+              <p><a>Kerala Kasavu</a></p>
+
+              <p><a>Kosa & Tussar</a></p>
+
+              <p><a>Kullu</a></p>
+
+              <p><a>Kutch Embroidery</a></p>
+
+              <p><a>Linen</a></p>
+
+              <p><a>Mangalgiri</a></p>
+
+              <p><a>Orissa Ikat</a></p>
+
+              <p><a>Pochampally Ikat</a></p>
+
+              <p><a>Shibori</a></p>
+
+              <p><a>South Cotton</a></p>
+
+              <p><a>South Silks</a></p>
+
+              <p><a>Tant Tangail & Jamdani</a></p>
+            </div>
+
+            <div>
+              <h5>FEATURED BRANDS</h5>
+
+              <p>
+                <a href="">Indie Picks</a>
+              </p>
+
+              <p>
+                <a href="">Indie Picks By AJIO</a>
+              </p>
+
+              <p>
+                <a href=""> Indie Picks Essentials </a>
+              </p>
+
+              <p><a href="">Molcha</a></p>
+
+              <p><a href="/users/2">Pretty Woman</a></p>
+
+              <p><a>Swadesh</a></p>
+
+              <p><a href="/users/3">Pothys</a></p>
+
+              <p><a href="/users/3">Rudrakaashe By MSU</a></p>
+
+              <h5>FEATURED</h5>
+
+              <p>
+                <a href="">Sarees Under 999</a>
+              </p>
+
+              <p>
+                <a href="/users/1">Kurtas And Sets At 1499</a>
+              </p>
+
+              <p><a href="/users/1">Dupattas Undedr 499</a></p>
+
+              <p><a href="/users/3">Earring Under 299</a></p>
+
+              <h5>CELEBRATION</h5>
+
+              <p><a>Handpicked Loom</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a class="active" href="">HOME & KITCHEN</a>
+
+      <div class="dropdown-content" id="men">
+        <div class="d1">
+          <div class="catog">
+            <p>Shop By:</p>
+
+            <p>CATEGORIES</p>
+          </div>
+
+          <div class="part">
+            <div>
+              <h5>NEW IN: HOME</h5>
+
+              <h5>BED LINEN</h5>
+
+              <p><a href="/users/2">Bedsheeets</a></p>
+
+              <p>
+                <a href="/users/1">Bedcovers & Sets</a>
+              </p>
+
+              <p>
+                <a href="/users/3"> Blankets, Dohars & Quilts </a>
+              </p>
+
+              <h5>CUSHIONS & COVERS</h5>
+
+              <h5>CURTAINS & ACCESSORIES</h5>
+
+              <h5>CARPETS, RUGS & DHURRIES</h5>
+
+              <h5>DINING & KITCHEN</h5>
+
+              <h5>BATH</h5>
+
+              <h5>HOME DECOR</h5>
+
+              <p><a>Aromas & Candles</a></p>
+
+              <p><a>Artifacts</a></p>
+
+              <p><a>Wall Arts</a></p>
+
+              <h5>STATIONERY</h5>
+            </div>
+
+            <div>
+              <h5>FEATURED STORIES</h5>
+
+              <p><a>Cushion Covers Under 499</a></p>
+
+              <p><a href="/users/2">Bedsheet Under 999</a></p>
+
+              <p><a>Wall Painting Under 499</a></p>
+
+              <p><a>Curtains Under 1499</a></p>
+
+              <p><a>Mats Under 499</a></p>
+
+              <p><a>Gift Zone Upto 75 Percecnt Off</a></p>
+
+              <p><a>Heritage Of India</a></p>
+
+              <h5>EXCLUSIVE BRANDS</h5>
+
+              <p><a>Indie Picks</a></p>
+
+              <p><a>Muji</a></p>
+            </div>
+
+            <div>
+              <h5>FEATURED BRANDS</h5>
+
+              <p><a>Swayam</a></p>
+
+              <p><a>Ddecor</a></p>
+
+              <p><a>Maspar</a></p>
+
+              <p><a>Trident</a></p>
+
+              <p><a>Story At Home</a></p>
+
+              <p><a>Raymond Home</a></p>
+
+              <p><a>Sej By Nisha Gupta</a></p>
+
+              <p><a>Chumbak</a></p>
+
+              <p><a>Layers</a></p>
+
+              <p><a>Bellacasa</a></p>
+
+              <p><a>Romee</a></p>
+
+              <p><a>Arrabi</a></p>
+
+              <p><a>Bianca</a></p>
+
+              <p><a>Home Sizzler</a></p>
+
+              <p><a>House This</a></p>
+
+              <p><a>Houzzcode</a></p>
+
+              <p><a>Salona Bichona</a></p>
+
+              <p><a>Sheen Decor</a></p>
+
+              <p><a>Shades of Life</a></p>
+
+              <p><a>Soumya</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="searLink">
+    <div id="mini-lnk">
+      <a href="" id="user_info"></a>
+
+      <a href="/myaccount.html">My Account</a>
+
+      <button id="s_IN" onclick="sign()">Sign Up</button>
+
+      <a href="/customerCare.html">Customer Care</a>
+    </div>
+
+    <div id="sear_block">
+      <form>
+        <input type="text" placeholder="   SearchAJIO" id="inp" />
+      </form>
+
+      <div class="A"></div>
+
+      <a href="/closet.html" id="closet">
+        <p></p>
+
+        <img src="/resources/img/cartico1.png" />
       </a>
-      <div id="links">
-        <div class="dropdown" >
-          <a class="active" href="" id="test">MEN</a>
-          <div class="dropdown-content">
-            <div class="d1">
-              <div class="catog">
-                <p>Shop By:</p>
-                <p>CATEGORIES</p>
-                <p>BRANDS</p>
-              </div>
-              <div class="part">
-                <div>
-                  <h5>NEW IN: CLOTHING</h5>
-                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
-                  <h5>INTERNATIONAL BRANDS</h5>
-                  <h5>WESTERN WEAR</h5>
-                  <p>
-                    <a href="/users/11">Jackets</a>
-                  </p>
-                  <p><button onclick="cato(menpants)">Jeans</button></p>
-                  <p><button onclick="cato(menshirts)">Shirts</button></p>
-                  <p>
-                    <button onclick="cato(menpants)">Shorts & 3/4ths</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(menjackets)">
-                      Seatshirts & Hoodies
-                    </button>
-                  </p>
-                  <p>
-                    <button onclick="cato(mentrackpants)">Tracks Pants</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(menpants)">Trousers & Pants</button>
-                  </p>
-                  <p><button onclick="cato(menshirts)">T-Shirts</button></p>
-                  <h5>ETHNIC & FESTIVE</h5>
-                  <p>
-                    <button onclick="cato(Kurtas)">Kurtas And Shirts</button>
-                  </p>
-                  <p><button onclick="cato(Kurtas)">Nehru Jackets</button></p>
-                </div>
-                <div>
-                  <h5>FOOTWEAR</h5>
-                  <p><button onclick="cato(menshoe)">Casual Shoes</button></p>
-                  <p>
-                    <button onclick="cato(menshoe)">
-                      Flip-Flops & Slippers
-                    </button>
-                  </p>
-                  <p><button onclick="cato(menshoe)">Formal Shoes</button></p>
-                  <p><button onclick="cato(menshoe)">Sandals</button></p>
-                  <p><button onclick="cato(menshoe)">Sneakers</button></p>
-                  <p><button onclick="cato(menshoe)">Sports Shoes</button></p>
-                  <h5>NIGHT & LOUNGEWEAR</h5>
-                  <p><button onclick="cato(menpants)">Briefs</button></p>
-                  <p><button onclick="cato(menpants)">Trunks</button></p>
-                  <p><button onclick="cato(menshirts)">Vests</button></p>
-                </div>
-                <div>
-                  <h5>ACCESSORIES</h5>
-                  <p><button>Backpacks</button></p>
-                  <p><button>Bags & Wallets</button></p>
-                  <p><button>Belts</button></p>
-                  <p><button>Caps & Hats</button></p>
-                  <p><button>Fashion Accesories</button></p>
-                  <p><button>Socks</button></p>
-                  <p><button>Sunglasses & Frames</button></p>
-                  <p><button>Wallets</button></p>
-                  <p><button>Watches</button></p>
-                  <h5>WINTERWEAR</h5>
-                  <h5>PRECIOUS JEWELLERY</h5>
-                  <h5>HOME & KITCHEN</h5>
-                  <h5>GROOMING</h5>
-                </div>
-                <div>
-                  <h5>FEATURED</h5>
-                  <p><button>Bags Under 1499</button></p>
-                  <p>
-                    <button onclick="cato(menshoe)">Footwear Under 1499</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(menpants)">Jeans Under 1199</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(menpants)">
-                      Shorts & 3/4ths Under 699
-                    </button>
-                  </p>
-                  <h5>#AJIORECOMMENDS</h5>
-                  <p><button>Play Time</button></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <a class="active" href="">WOMEN</a>
-          <div class="dropdown-content">
-            <div class="d1">
-              <div class="catog">
-                <p>Shop By:</p>
-                <p>CATEGORIES</p>
-                <p>BRANDS</p>
-              </div>
-              <div class="part">
-                <div>
-                  <h5>NEW IN: CLOTHING</h5>
-                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
-                  <h5>WESTERN WEAR</h5>
-                  <p><button onclick="cato(WTops)">Tops</button></p>
-                  <p><button onclick="cato(WTshirt)">T-Shirts</button></p>
-                  <p>
-                    <button onclick="cato(WJeans)">Jeans & Jeggings</button>
-                  </p>
-                  <p><button onclick="cato(WDress)">Dresses</button></p>
-                  <p>
-                    <button onclick="cato(WJeans)">Trousers & Pants</button>
-                  </p>
-                  <p><button onclick="cato(Wshirts)">Shirts</button></p>
-                  <p><button onclick="cato(WJeans)">Tracks Pants</button></p>
-                  <p><button onclick="cato(WDress)">Skirts & Shorts</button></p>
-                  <p><button onclick="cato(WTops)">Jackets & Coats</button></p>
-                  <p>
-                    <button onclick="cato(WTops)">Jumpsuits & Playsuits</button>
-                  </p>
-                  <p><button onclick="cato(WTops)">Shrugs & Boleros</button></p>
-                  <p>
-                    <button onclick="cato(WTops)">Seatshirts & Hoodies</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(WTops)">Sweater & Cardigans</button>
-                  </p>
-                </div>
-                <div>
-                  <h5>ETHNIC WEAR</h5>
-                  <p><button onclick="cato(WKurtis)">Kurtas</button></p>
-                  <p>
-                    <button onclick="cato(WKurtis)">Salwars & Churidars</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(WKurtis)">Kurtis & Tunics</button>
-                  </p>
-                  <p><button onclick="cato(WSarees)">Sarees</button></p>
-                  <p><button onclick="cato(WKurtis)">Dupattas</button></p>
-                  <p><button onclick="cato(WDress)">Dress Material</button></p>
-                  <p>
-                    <button onclick="cato(WKurtis)">Kurta Suit sets</button>
-                  </p>
-                  <p><button onclick="cato(WTops)">Blouses</button></p>
-                  <p><button onclick="cato(WJeans)">Leggings</button></p>
-                  <p><button onclick="cato(WTops)">Jackets & Shrugs</button></p>
-                  <p>
-                    <button onclick="cato(Wshirts)">Shirts & Ghagras</button>
-                  </p>
-                  <p><button onclick="cato(WKurtis)">Shawls & Wraps</button></p>
-                  <p>
-                    <button onclick="cato(WDress)">Palazzos & Culottes</button>
-                  </p>
-                  <h5>LINGERIE & INNERWEAR</h5>
-                  <p><button onclick="cato(WTops)">Bras</button></p>
-                  <p><button onclick="cato(WJeans)">Panties</button></p>
-                  <p>
-                    <button onclick="cato(WJeans)">Camisoles & Slips</button>
-                  </p>
-                </div>
-                <div>
-                  <h5>WINTER</h5>
-                  <h5>PRECIOUS JEWELLERY</h5>
-                  <h5>HOME & KITCHEN</h5>
-                  <h5>NIGHT & LOUNGEWEAR</h5>
-                  <h5>ATHLEISURE</h5>
-                  <h5>BEAUTY</h5>
-                  <h5>FUSION WEAR</h5>
-                  <p><button>Dresses & Gowns</button></p>
-                  <p><button>Kurtas</button></p>
-                  <p>
-                    <button onclick="cato(WKurtis)">Kurtis & Tunics</button>
-                  </p>
-                  <p><button onclick="cato(WJeans)">Pants & Shorts</button></p>
-                  <p><button onclick="cato(WTops)">Jackets & Shrugs</button></p>
-                  <p>
-                    <button onclick="cato(Wshirts)">
-                      Shirts, Tops & Tunics
-                    </button>
-                  </p>
-                  <h5>FASHION JEWELLERY</h5>
-                  <h5>BAGS, BELTS & WALLETS</h5>
-                </div>
-                <div>
-                  <h5>FOOTWEAR</h5>
-                  <p><button onclick="cato(WSandals)">Casual Shoes</button></p>
-                  <p><button onclick="cato(WSandals)">Flats Sandals</button></p>
-                  <p><button onclick="cato(WSandals)">Sports Shoes</button></p>
-                  <p>
-                    <button onclick="cato(WSandals)">
-                      Flip Flop & Slippers
-                    </button>
-                  </p>
-                  <p>
-                    <button onclick="cato(WSandals)">Heeled Sandals</button>
-                  </p>
-                  <p><button onclick="cato(WSandals)">Heeled Shoes</button></p>
-                  <p><button onclick="cato(WSandals)">Boots</button></p>
-                  <h5>SUNGLASSES & FRAMES</h5>
-                  <h5>WATCHES</h5>
-                  <h5>FEATURED</h5>
-                  <p>
-                    <button onclick="cato(WDress)">Dresses Under 999</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(WSandals)">Footwear Under 799</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(WSarees)">Sarees Under 799</button>
-                  </p>
-                  <p><button onclick="cato(WTops)">Top Under 499</button></p>
-                  <h5>#AJIORECOMMENDS</h5>
-                  <p><button>Play Time</button></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <a class="active" href="">KIDS</a>
-          <div class="dropdown-content">
-            <div class="d1">
-              <div class="catog">
-                <p>Shop By:</p>
-                <p>CATEGORIES</p>
-              </div>
-              <div class="part">
-                <div>
-                  <h5>NEW IN: CLOTHING</h5>
-                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
-                  <h5>INNERWEAR & SLEEPWEAR</h5>
-                  <h5>BOYS</h5>
-                  <p>
-                    <button onclick="cato(kidsShirts)">
-                      Denims & Trousers
-                    </button>
-                  </p>
-                  <p>
-                    <button onclick="cato(kidsShirts)">
-                      Joggers & Tracks Pants
-                    </button>
-                  </p>
-                  <p><button onclick="cato(kidsShirts)">Outerwear</button></p>
-                  <p><button onclick="cato(kidsShirts)">Shirts</button></p>
-                  <p>
-                    <button onclick="cato(kidsShirts)">Shorts & 3/4ths</button>
-                  </p>
-                  <p><button onclick="cato(kidsShirts)">T-Shirts</button></p>
-                  <h5>SHOP BY AGE</h5>
-                  <p><button onclick="cato(kidsShirts)">0-2 Years</button></p>
-                  <p><button onclick="cato(kidsShirts)">2-5 Years</button></p>
-                  <p><button onclick="cato(kidsShirts)">5-10 Years</button></p>
-                  <p><button onclick="cato(kidsShirts)">10-14 Years</button></p>
-                </div>
-                <div>
-                  <h5>FEATURED</h5>
-                  <p>
-                    <button onclick="cato(kidsShirts)">Denims Under 799</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(kidsShirts)">Shirts Under 599</button>
-                  </p>
-                  <p><button>T-Shirts Under 399</button></p>
-                  <h5>GIRLS</h5>
-                  <p>
-                    <button onclick="cato(girlsDress)">Dresses & Frocks</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(girlsDress)">Jeans & Jeggings</button>
-                  </p>
-                  <p><button onclick="cato(girlsDress)">Leggings</button></p>
-                  <p><button onclick="cato(girlsDress)">Outerwear</button></p>
-                  <p>
-                    <button onclick="cato(girlsDress)">Skirts & Shorts</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(girlsDress)">Tops & T-Shirts</button>
-                  </p>
-                  <h5>SHOP BY AGE</h5>
-                  <p><button onclick="cato(girlsDress)">2-5 Years</button></p>
-                  <p><button onclick="cato(girlsDress)">5-10 Years</button></p>
-                  <p><button onclick="cato(girlsDress)">10-14 Years</button></p>
-                  <h5>FEATURED</h5>
-                  <p>
-                    <button onclick="cato(girlsDress)">
-                      Dresses Under 499
-                    </button>
-                  </p>
-                  <p>
-                    <button onclick="cato(girlsDress)">Tops Under 399</button>
-                  </p>
-                </div>
-                <div>
-                  <h5>BABY</h5>
-                  <p><button>Sets</button></p>
-                  <h5>TOYS AND BABYCARE</h5>
-                  <p><button>Action-Figurine & Collectibles</button></p>
-                  <p><button>Creative & Educational Toys</button></p>
-                  <p><button>Gaming, Robots & Vehicles</button></p>
-                  <p><button>Infant Toys</button></p>
-                  <p><button>Role & Pretend Play</button></p>
-                  <p><button>School, Party Supplies & Books</button></p>
-                  <p><button>Soft Toys</button></p>
-                  <p><button>Toy-Guns & Accessories</button></p>
-                  <h5>COLLECTIONS</h5>
-                  <h5>AJIO EXCLUSIVES</h5>
-                  <h5>FOOTWEAR & ACCESSORIES</h5>
-                </div>
-                <div>
-                  <h5>FEATURED</h5>
-                  <p><button>Crocs</button></p>
-                  <p><button>Flying Machine Kids</button></p>
-                  <p><button>MINI KLUB</button></p>
-                  <p><button>Gini & Jony</button></p>
-                  <p><button>Hamleys</button></p>
-                  <p><button>Mothercare</button></p>
-                  <p><button>Marks & Spencer</button></p>
-                  <p><button>Pepe Jeans</button></p>
-                  <p><button>Peppermint</button></p>
-                  <p><button>UCB Kids</button></p>
-                  <p><button>U.S.P.A Kids</button></p>
-                  <p><button>MILA BABY</button></p>
-                  <p><button>Under Armour</button></p>
-                  <p><button>MUJI</button></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <a class="active" href="">INDIE</a>
-          <div class="dropdown-content">
-            <div class="d1">
-              <div class="catog">
-                <p>Shop By:</p>
-                <p>CATEGORIES</p>
-              </div>
-              <div class="part">
-                <div>
-                  <h5>NEW IN: CLOTHING</h5>
-                  <h5>NEW IN: SAREES</h5>
-                  <h5>NEW IN: JEWELLERY</h5>
-                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
-                  <h5>NEW IN: HOME</h5>
-                  <h5>CLOTHING</h5>
-                  <p><button onclick="cato(Indie_Saree)">Sarees</button></p>
-                  <p><button onclick="cato(kurtas)">Kurtas</button></p>
-                  <p><button onclick="cato(Dresses)">Dresses</button></p>
-                  <p><button onclick="cato(Tops)">Tops & Tunics</button></p>
-                  <p><button onclick="cato(Tops)">Dupattas</button></p>
-                  <p>
-                    <button onclick="cato(Dresses)">Dress Materials</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(Tops)">
-                      Blouses & Blouse Fabrics
-                    </button>
-                  </p>
-                  <p>
-                    <button onclick="cato(Dresses)">
-                      Pants Skirts & Palazzos
-                    </button>
-                  </p>
-                  <h5>FOOTWEAR</h5>
-                  <p><button onclick="cato(WSandals)">Chappals</button></p>
-                  <p><button onclick="cato(Juttis)">Juttis</button></p>
-                </div>
-                <div>
-                  <h5>FASHION JEWELLERY</h5>
-                  <p><button>Bracelets</button></p>
-                  <p><button>Earrings & Rings</button></p>
-                  <p><button>Necklaces & Pendants</button></p>
-                  <h5>SILVER JEWELLERY</h5>
-                  <h5>ACCESSORIES</h5>
-                  <p><button>Bags & Belts</button></p>
-                  <p><button>Shawls & Wraps</button></p>
-                  <p><button>Stoles & Scarves</button></p>
-                  <h5>MENSWEAR</h5>
-                  <p><button onclick="cato(Kurtas)">Kurtas</button></p>
-                  <p>
-                    <button onclick="cato(menshirts)">
-                      Nehru Jackets and Ties
-                    </button>
-                  </p>
-                  <p><button onclick="cato(menshirts)">Shirts</button></p>
-                  <p><button onclick="cato(Juttis)">Footwear</button></p>
-                  <h5>HOME</h5>
-                  <h5>WORLD CRAFTS</h5>
-                </div>
-                <!-- bababoey -->
-                <div>
-                  <h5>REGIONAL SPECIALTIES</h5>
-                  <p><button>Ajrak</button></p>
-                  <p><button>Bagh</button></p>
-                  <p><button>Bagru</button></p>
-                  <p><button>Bananas & Brocades</button></p>
-                  <p><button>Chanderi & Maheshwari</button></p>
-                  <p><button>Indigo</button></p>
-                  <p><button>Kalamkari</button></p>
-                  <p><button>Kerala Kasavu</button></p>
-                  <p><button>Kosa & Tussar</button></p>
-                  <p><button>Kullu</button></p>
-                  <p><button>Kutch Embroidery</button></p>
-                  <p><button>Linen</button></p>
-                  <p><button>Mangalgiri</button></p>
-                  <p><button>Orissa Ikat</button></p>
-                  <p><button>Pochampally Ikat</button></p>
-                  <p><button>Shibori</button></p>
-                  <p><button>South Cotton</button></p>
-                  <p><button>South Silks</button></p>
-                  <p><button>Tant Tangail & Jamdani</button></p>
-                </div>
-                <div>
-                  <h5>FEATURED BRANDS</h5>
-                  <p>
-                    <button onclick="cato(Indie_Saree)">Indie Picks</button>
-                  </p>
-                  <p>
-                    <button onclick="cato(Indie_Saree)">
-                      Indie Picks By AJIO
-                    </button>
-                  </p>
-                  <p>
-                    <button onclick="cato(Indie_Saree)">
-                      Indie Picks Essentials
-                    </button>
-                  </p>
-                  <p><button onclick="cato(Indie_Saree)">Molcha</button></p>
-                  <p><button onclick="cato(WDress)">Pretty Woman</button></p>
-                  <p><button>Swadesh</button></p>
-                  <p><button>Pothys</button></p>
-                  <p><button>Rudrakaashe By MSU</button></p>
-                  <h5>FEATURED</h5>
-                  <p>
-                    <button onclick="cato(Indie_Saree)">
-                      Sarees Under 999
-                    </button>
-                  </p>
-                  <p>
-                    <button onclick="cato(kurtas)">
-                      Kurtas And Sets At 1499
-                    </button>
-                  </p>
-                  <p><button>Dupattas Undedr 499</button></p>
-                  <p><button>Earring Under 299</button></p>
-                  <h5>CELEBRATION</h5>
-                  <p><button>Handpicked Loom</button></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <a class="active" href="">HOME & KITCHEN</a>
-          <div class="dropdown-content" id="men">
-            <div class="d1">
-              <div class="catog">
-                <p>Shop By:</p>
-                <p>CATEGORIES</p>
-              </div>
-              <div class="part">
-                <div>
-                  <h5>NEW IN: HOME</h5>
-                  <h5>BED LINEN</h5>
-                  <p><button onclick="cato(bedsheet)">Bedsheeets</button></p>
-                  <p>
-                    <button onclick="cato(Bedcover_sets)">
-                      Bedcovers & Sets
-                    </button>
-                  </p>
-                  <p>
-                    <button onclick="cato(blanket)">
-                      Blankets, Dohars & Quilts
-                    </button>
-                  </p>
-                  <h5>CUSHIONS & COVERS</h5>
-                  <h5>CURTAINS & ACCESSORIES</h5>
-                  <h5>CARPETS, RUGS & DHURRIES</h5>
-                  <h5>DINING & KITCHEN</h5>
-                  <h5>BATH</h5>
-                  <h5>HOME DECOR</h5>
-                  <p><button>Aromas & Candles</button></p>
-                  <p><button>Artifacts</button></p>
-                  <p><button>Wall Arts</button></p>
-                  <h5>STATIONERY</h5>
-                </div>
-                <div>
-                  <h5>FEATURED STORIES</h5>
-                  <p><button>Cushion Covers Under 499</button></p>
-                  <p><button>Bedsheet Under 999</button></p>
-                  <p><button>Wall Painting Under 499</button></p>
-                  <p><button>Curtains Under 1499</button></p>
-                  <p><button>Mats Under 499</button></p>
-                  <p><button>Gift Zone Upto 75 Percecnt Off</button></p>
-                  <p><button>Heritage Of India</button></p>
-                  <h5>EXCLUSIVE BRANDS</h5>
-                  <p><button>Indie Picks</button></p>
-                  <p><button>Muji</button></p>
-                </div>
-                <div>
-                  <h5>FEATURED BRANDS</h5>
-                  <p><button>Swayam</button></p>
-                  <p><button>Ddecor</button></p>
-                  <p><button>Maspar</button></p>
-                  <p><button>Trident</button></p>
-                  <p><button>Story At Home</button></p>
-                  <p><button>Raymond Home</button></p>
-                  <p><button>Sej By Nisha Gupta</button></p>
-                  <p><button>Chumbak</button></p>
-                  <p><button>Layers</button></p>
-                  <p><button>Bellacasa</button></p>
-                  <p><button>Romee</button></p>
-                  <p><button>Arrabi</button></p>
-                  <p><button>Bianca</button></p>
-                  <p><button>Home Sizzler</button></p>
-                  <p><button>House This</button></p>
-                  <p><button>Houzzcode</button></p>
-                  <p><button>Salona Bichona</button></p>
-                  <p><button>Sheen Decor</button></p>
-                  <p><button>Shades of Life</button></p>
-                  <p><button>Soumya</button></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="searLink">
-        <div id="mini-lnk">
-          <a href="" id="user_info"></a>
-          <a href="/myaccount.html">My Account</a>
-          <button id="s_IN" onclick="sign()">Sign Up</button>
-          <a href="/customerCare.html">Customer Care</a>
-        </div>
-        <div id="sear_block">
-          <form>
-            <input type="text" placeholder="   SearchAJIO" id="inp" />
-          </form>
-          <div class="A">
-            
-          </div>
-          <a href="/closet.html" id="closet">
-            <p></p>
-           <img src='/resources/img/cartico1.png'>
-          </a>
-          <a href="/bag.html" id="cart">
-            <p></p>
-            <img src='/resources/img/cartico2.png'>
-          </a>
-        </div>
-      </div>
-    </div>`
+
+      <a href="/bag.html" id="cart">
+        <p></p>
+
+        <img src="/resources/img/cartico2.png" />
+      </a>
+    </div>
+  </div>
+</div>
+`
 }
 var abb = []
 function cato(arr) {
